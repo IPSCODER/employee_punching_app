@@ -1,0 +1,304 @@
+.Auth-section{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.login-container form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+.login-container form p {
+    color: #fff9;
+    font-size: 13px;
+    text-align: left;
+}
+.login-container form .heading{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.login-container form{
+    color: #fff;
+}
+.login-container form .heading h1{
+    color: #fff;
+    position: relative;
+    font-size: 40px;
+}
+.login-container form .heading h1::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    width: 12px;
+    height: 10px;
+    margin-left: 4px;
+    background-color: #29AAE1;
+    border-radius: 50%;
+}
+.login-container form .heading p {
+    color: #636363;
+    font-size: 20px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.login-container .logo-container svg{
+    width: 200px;
+    height: 60px;
+}
+
+.login-container .input-container svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.login-container select{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: #fff;
+    padding: 0 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.login-container select option{
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+}
+
+.login-container .input-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: #777;
+    padding: 10px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-container button {
+    background-color: #29ABE2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+.login-container .time p{
+    color:#636363;
+    text-align: center;
+}
+.login-container .time{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@media screen and (max-width:950px) {
+    .Auth-section{
+        font-family: Arial, sans-serif;
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .login-container {
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 500px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0px;
+    }
+    
+    .login-container form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 50%;
+    }
+    .login-container form p {
+        color: #fff9;
+        font-size: 11px;
+        text-align: left;
+    }
+    .login-container form .heading{
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .login-container form{
+        color: #fff;
+    }
+    .login-container form .heading h1{
+        color: #fff;
+        position: relative;
+        font-size: 30px;
+    }
+    .login-container form .heading h1::after {
+        content: "";
+        position: absolute;
+        bottom: 3px;
+        width: 12px;
+        height: 10px;
+        margin-left: 4px;
+        background-color: #29AAE1;
+        border-radius: 50%;
+    }
+    .login-container form .heading p {
+        color: #636363;
+        font-size: 15px;
+    }
+    
+    .login-container h2 {
+        margin-bottom: 20px;
+    }
+    
+    .login-container .input-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: 45px;
+        cursor: pointer;
+    }
+    
+    .login-container .logo-container svg{
+        width: 100px;
+        height: 60px;
+    }
+    
+    .login-container .input-container svg{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    
+    .login-container select{
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        color: #fff;
+        padding: 0 10px;
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .login-container select option{
+        height: 40px;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+    }
+    
+    .login-container .input-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        fill: #777;
+        padding: 10px;
+    }
+    
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 8px;
+        background: transparent;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .login-container button {
+        background-color: #29ABE2;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 20px;
+        cursor: pointer;
+        border-radius: 30px;
+        font-size: 16px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .login-container button:hover {
+        background-color: #0056b3;
+    }
+    .login-container .time p{
+        color:#636363;
+        text-align: center;
+    }
+    .login-container .time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    
+}

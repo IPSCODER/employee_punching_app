@@ -1,0 +1,66 @@
+.login-history-page{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 110px;
+}
+
+.login-history-page table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.login-history-page th,.login-history-page td {
+    padding: 10px;
+    text-align: center;
+}
+.login-history-page th {
+    background-color: #2A2A2A;
+    color: #B7B7B7;
+    text-transform: uppercase;
+}
+.login-history-page tr{
+    background-color:#E2E2E2;
+}
+.login-history-page tr:nth-child(even) {
+    background-color: #CECAC8;
+}
+
+@media screen and (max-width:950px) {
+    .login-history-page{
+        width: 100%;
+        min-height: 100vh;
+        padding-top: 110px;
+        overflow-x: auto;
+    }
+    
+    .login-history-page table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .login-history-page table thead tr th{
+        font-size: 10px;
+        min-width: 100px;
+    }
+
+    .login-history-page table tbody tr td{
+        font-size: 12px;
+        min-width: 100px;
+    }
+    
+    .login-history-page th,.login-history-page td {
+        padding: 5px;
+        text-align: center;
+    }
+    .login-history-page th {
+        background-color: #2A2A2A;
+        color: #B7B7B7;
+        text-transform: uppercase;
+    }
+    .login-history-page tr{
+        background-color:#E2E2E2;
+    }
+    .login-history-page tr:nth-child(even) {
+        background-color: #CECAC8;
+    }
+}
